@@ -1,0 +1,298 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:01:08] 
+[10:01:08] Server Plugins
+[10:01:08] --------------
+[10:01:08]  Loading plugin: mysql
+[10:01:08]  >> plugin.mysql: R39 successfully loaded.
+[10:01:08]   Loaded.
+[10:01:08]  Loading plugin: streamer
+[10:01:08] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[10:01:08]   Loaded.
+[10:01:08]  Loading plugin: sscanf
+[10:01:08] 
+
+[10:01:08]  ===============================
+
+[10:01:08]       sscanf plugin loaded.     
+
+[10:01:08]          Version:  2.8.1        
+
+[10:01:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:01:08]  ===============================
+
+[10:01:08]   Loaded.
+[10:01:08]  Loaded 3 plugins.
+
+[10:01:08] 
+[10:01:08] Filterscripts
+[10:01:08] ---------------
+[10:01:08]   Loaded 0 filterscripts.
+
+[10:01:08] It stabilizes the connection to the database ...
+[10:01:08] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[10:01:08] ServerUnlocked - called (26) seconds...
+[10:01:08] 
+---------------------------------------
+[10:01:08] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[10:01:08] ---------------------------------------
+
+[10:01:08] Number of vehicle models: 0
+[10:01:08] LoadFactionsThread() - called (12 factions loaded).
+[10:01:09] LoadVehiclesThread() - called (212 vehicles loaded.
+[10:01:09] LoadHousesThread() - called (48 houses loaded).
+[10:01:09] LoadBizThread() - called (18 business loaded).
+[10:01:09] InitSkinThread() - called (11 skins loaded).
+[10:01:09] InitTurfRivalWars() - called (33 turfs loaded).
+[10:01:09] InitSpawnZone() - called (11 zones loaded).
+[10:01:09] LoadSafesThread() - called (10 safes loaded).
+[10:01:09] LoadJobsThread() - called (5 jobs loaded).
+[10:01:09] LoadDealerShipThread() - called (92 vehicles loaded).
+[10:01:09] No FMA Races loaded from table Races_id.
+[10:01:09] OtherTimer - called
+[10:01:09] DiseasePayDay - called
+[10:01:09] DiseasePlayerHealth - called
+[10:01:09] SendMSG - called
+[10:01:09] AleatorContracts - called
+[10:01:09] CheckGas - called
+[10:01:09] ShowMenuInBusiness - called
+[10:01:37] Server password has been removed.
+[10:02:29] [connection] 127.0.0.1:54924 requests connection cookie.
+[10:02:30] [connection] incoming connection: 127.0.0.1:54924 id: 0
+[10:02:30] [join] Kurama has joined the server (0:127.0.0.1)
+[10:07:15] [part] Kurama has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:08:13] 
+[10:08:13] Server Plugins
+[10:08:13] --------------
+[10:08:13]  Loading plugin: mysql
+[10:08:13]  >> plugin.mysql: R39 successfully loaded.
+[10:08:13]   Loaded.
+[10:08:13]  Loading plugin: streamer
+[10:08:13] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[10:08:13]   Loaded.
+[10:08:13]  Loading plugin: sscanf
+[10:08:13] 
+
+[10:08:13]  ===============================
+
+[10:08:13]       sscanf plugin loaded.     
+
+[10:08:13]          Version:  2.8.1        
+
+[10:08:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:08:13]  ===============================
+
+[10:08:13]   Loaded.
+[10:08:13]  Loaded 3 plugins.
+
+[10:08:13] 
+[10:08:13] Filterscripts
+[10:08:13] ---------------
+[10:08:13]   Loaded 0 filterscripts.
+
+[10:08:13] It stabilizes the connection to the database ...
+[10:08:13] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[10:08:13] ServerUnlocked - called (26) seconds...
+[10:08:13] 
+---------------------------------------
+[10:08:13] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[10:08:13] ---------------------------------------
+
+[10:08:13] Number of vehicle models: 0
+[10:08:13] LoadFactionsThread() - called (12 factions loaded).
+[10:08:13] LoadVehiclesThread() - called (212 vehicles loaded.
+[10:08:13] LoadHousesThread() - called (48 houses loaded).
+[10:08:13] LoadBizThread() - called (18 business loaded).
+[10:08:13] InitSkinThread() - called (11 skins loaded).
+[10:08:13] InitTurfRivalWars() - called (33 turfs loaded).
+[10:08:13] InitSpawnZone() - called (11 zones loaded).
+[10:08:13] LoadSafesThread() - called (10 safes loaded).
+[10:08:13] LoadJobsThread() - called (5 jobs loaded).
+[10:08:13] LoadDealerShipThread() - called (92 vehicles loaded).
+[10:08:13] No FMA Races loaded from table Races_id.
+[10:08:14] OtherTimer - called
+[10:08:14] SendMSG - called
+[10:08:14] DiseasePayDay - called
+[10:08:14] DiseasePlayerHealth - called
+[10:08:14] AleatorContracts - called
+[10:08:14] CheckGas - called
+[10:08:14] ShowMenuInBusiness - called
+[10:08:41] Server password has been removed.
+[10:09:02] [connection] 127.0.0.1:55673 requests connection cookie.
+[10:09:03] [connection] incoming connection: 127.0.0.1:55673 id: 0
+[10:09:03] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:10:09] 
+[10:10:09] Server Plugins
+[10:10:09] --------------
+[10:10:09]  Loading plugin: mysql
+[10:10:09]  >> plugin.mysql: R39 successfully loaded.
+[10:10:09]   Loaded.
+[10:10:09]  Loading plugin: streamer
+[10:10:09] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[10:10:09]   Loaded.
+[10:10:09]  Loading plugin: sscanf
+[10:10:09] 
+
+[10:10:09]  ===============================
+
+[10:10:09]       sscanf plugin loaded.     
+
+[10:10:09]          Version:  2.8.1        
+
+[10:10:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:10:09]  ===============================
+
+[10:10:09]   Loaded.
+[10:10:09]  Loaded 3 plugins.
+
+[10:10:09] 
+[10:10:09] Filterscripts
+[10:10:09] ---------------
+[10:10:09]   Loaded 0 filterscripts.
+
+[10:10:09] It stabilizes the connection to the database ...
+[10:10:09] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[10:10:09] ServerUnlocked - called (26) seconds...
+[10:10:09] 
+---------------------------------------
+[10:10:09] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[10:10:09] ---------------------------------------
+
+[10:10:09] Number of vehicle models: 0
+[10:10:09] LoadFactionsThread() - called (12 factions loaded).
+[10:10:09] LoadVehiclesThread() - called (212 vehicles loaded.
+[10:10:09] LoadHousesThread() - called (48 houses loaded).
+[10:10:09] LoadBizThread() - called (18 business loaded).
+[10:10:09] InitSkinThread() - called (11 skins loaded).
+[10:10:09] InitTurfRivalWars() - called (33 turfs loaded).
+[10:10:09] InitSpawnZone() - called (11 zones loaded).
+[10:10:09] LoadSafesThread() - called (10 safes loaded).
+[10:10:09] LoadJobsThread() - called (5 jobs loaded).
+[10:10:09] LoadDealerShipThread() - called (92 vehicles loaded).
+[10:10:09] No FMA Races loaded from table Races_id.
+[10:10:09] OtherTimer - called
+[10:10:09] SendMSG - called
+[10:10:09] DiseasePayDay - called
+[10:10:10] DiseasePlayerHealth - called
+[10:10:10] AleatorContracts - called
+[10:10:10] CheckGas - called
+[10:10:10] ShowMenuInBusiness - called
+[10:10:28] [connection] 127.0.0.1:51383 requests connection cookie.
+[10:10:29] [connection] incoming connection: 127.0.0.1:51383 id: 0
+[10:10:37] Server password has been removed.
+[10:10:39] [connection] incoming connection: 127.0.0.1:56149 id: 0
+[10:10:40] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:12:11] 
+[10:12:11] Server Plugins
+[10:12:11] --------------
+[10:12:11]  Loading plugin: mysql
+[10:12:11]  >> plugin.mysql: R39 successfully loaded.
+[10:12:11]   Loaded.
+[10:12:11]  Loading plugin: streamer
+[10:12:11] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[10:12:11]   Loaded.
+[10:12:11]  Loading plugin: sscanf
+[10:12:11] 
+
+[10:12:11]  ===============================
+
+[10:12:11]       sscanf plugin loaded.     
+
+[10:12:11]          Version:  2.8.1        
+
+[10:12:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[10:12:11]  ===============================
+
+[10:12:11]   Loaded.
+[10:12:11]  Loaded 3 plugins.
+
+[10:12:11] 
+[10:12:11] Filterscripts
+[10:12:11] ---------------
+[10:12:11]   Loaded 0 filterscripts.
+
+[10:12:11] It stabilizes the connection to the database ...
+[10:12:11] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[10:12:11] ServerUnlocked - called (26) seconds...
+[10:12:11] 
+---------------------------------------
+[10:12:11] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[10:12:11] ---------------------------------------
+
+[10:12:11] Number of vehicle models: 0
+[10:12:12] LoadFactionsThread() - called (12 factions loaded).
+[10:12:12] LoadVehiclesThread() - called (212 vehicles loaded.
+[10:12:12] LoadHousesThread() - called (48 houses loaded).
+[10:12:12] LoadBizThread() - called (18 business loaded).
+[10:12:12] InitSkinThread() - called (11 skins loaded).
+[10:12:12] InitTurfRivalWars() - called (33 turfs loaded).
+[10:12:12] InitSpawnZone() - called (11 zones loaded).
+[10:12:12] LoadSafesThread() - called (10 safes loaded).
+[10:12:12] LoadJobsThread() - called (5 jobs loaded).
+[10:12:12] LoadDealerShipThread() - called (92 vehicles loaded).
+[10:12:12] No FMA Races loaded from table Races_id.
+[10:12:12] OtherTimer - called
+[10:12:12] SendMSG - called
+[10:12:12] DiseasePayDay - called
+[10:12:12] DiseasePlayerHealth - called
+[10:12:12] AleatorContracts - called
+[10:12:12] CheckGas - called
+[10:12:12] ShowMenuInBusiness - called
+[10:12:40] Server password has been removed.
+[10:12:43] [connection] 127.0.0.1:64306 requests connection cookie.
+[10:12:44] [connection] incoming connection: 127.0.0.1:64306 id: 0
+[10:12:44] [join] Kurama has joined the server (0:127.0.0.1)
