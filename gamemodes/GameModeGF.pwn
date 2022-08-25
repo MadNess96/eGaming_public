@@ -372,7 +372,7 @@ public OnGameModeInit() {
 	TextDrawSetShadow(TextdrawDay,1);
 
 	//luna
-	TextdrawMonth = TextDrawCreate(515.000000,10.000000,"---------");
+	TextdrawMonth = TextDrawCreate(530.000000,10.000000,"---------");
 	TextDrawAlignment(TextdrawMonth,0);
 	TextDrawBackgroundColor(TextdrawMonth,0x000000FF);
 	TextDrawFont(TextdrawMonth,2);
