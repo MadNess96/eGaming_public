@@ -183,7 +183,7 @@ function WhenPlayerLogin(playerid) {
 			format(string, MAXO_TEXT, "UPDATE players SET CarSlots = %d, Registered = CURRENT_TIMESTAMP WHERE ID = %d", PlayerInfo[playerid][pCarSlots], PlayerInfo[playerid][pSQLID]);
 			mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 		}
-		format(string, MAXO_TEXT2, "UPDATE players SET LastLogin = %d, Status = 1 WHERE ID = %d", gLocalTimeStamp, PlayerInfo[playerid][pSQLID]);
+		format(string, MAXO_TEXT2, "UPDATE players SET LastLogin = %d WHERE ID = %d", gLocalTimeStamp, PlayerInfo[playerid][pSQLID]);
 		mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 		/* Mesaje afisate dupa login */
 		SendClientMessage(playerid, -1, "");

@@ -1480,23 +1480,32 @@ COMMAND:licenses(playerid, params[]) {
 	if(PlayerInfo[playerid][pDrivingLicense] == 0) {
 		SendClientMessage(playerid, COLOR_GRAD1, "** Driving License: "GALBEN"None.");
 	}
-	else if(PlayerInfo[playerid][pDrivingLicense] >= 1) {
-		format(string, MAXO_TEXT, "** Driving License valid: "GALBEN"%d hours.", PlayerInfo[playerid][pDrivingLicense]);
+	else if(PlayerInfo[playerid][pDrivingLicense] >= gLocalTimeStamp) {
+		format(string, MAXO_TEXT, "** Driving License valid: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pDrivingLicense], 1));
 		SendClientMessage(playerid, COLOR_GRAD1, string);
+	}
+	else if(PlayerInfo[playerid][pDrivingLicense] <= gLocalTimeStamp) {
+		SendClientMessage(playerid, COLOR_GRAD1, "** Driving License: "GALBEN"Expired.");
 	}
 	if(PlayerInfo[playerid][pFlyingLicense] == 0) {
 		SendClientMessage(playerid, COLOR_GRAD1, "** Flying License: "GALBEN"None.");
 	}
-	else if(PlayerInfo[playerid][pFlyingLicense] >= 1) {
-		format(string, MAXO_TEXT, "** Flying License valid: "GALBEN"%d hours.", PlayerInfo[playerid][pFlyingLicense]);
+	else if(PlayerInfo[playerid][pFlyingLicense] >= gLocalTimeStamp) {
+		format(string, MAXO_TEXT, "** Flying License valid: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pFlyingLicense], 1));
 		SendClientMessage(playerid, COLOR_GRAD1, string);
+	}
+	else if(PlayerInfo[playerid][pFlyingLicense] <= gLocalTimeStamp) {
+		SendClientMessage(playerid, COLOR_GRAD1, "** Flying License: "GALBEN"Expired.");
 	}
 	if(PlayerInfo[playerid][pSailingLicense] == 0) {
 		SendClientMessage(playerid, COLOR_GRAD1, "** Sailing License: "GALBEN"None.");
 	}
-	else if(PlayerInfo[playerid][pSailingLicense] >= 1) {
-		format(string, MAXO_TEXT, "** Sailing License valid: "GALBEN"%d hours.", PlayerInfo[playerid][pSailingLicense]);
+	else if(PlayerInfo[playerid][pSailingLicense] >= gLocalTimeStamp) {
+		format(string, MAXO_TEXT, "** Sailing License valid: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pSailingLicense], 1));
 		SendClientMessage(playerid, COLOR_GRAD1, string);
+	}
+	else if(PlayerInfo[playerid][pSailingLicense] <= gLocalTimeStamp) {
+		SendClientMessage(playerid, COLOR_GRAD1, "** Sailing License: "GALBEN"Expired.");
 	}
 	clear.string(string);
 	return true;

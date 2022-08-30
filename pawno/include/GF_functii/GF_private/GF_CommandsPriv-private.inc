@@ -1627,32 +1627,32 @@ COMMAND:givelicense(playerid, params[]) {
 			targetid = PartialName[playerid][jucator_gasit];
 			if(targetid != INVALID_PLAYER_ID) {
 				if(!strcmp(params, "driving", true)) {
-					PlayerInfo[targetid][pDrivingLicense] = 100;
+					PlayerInfo[targetid][pDrivingLicense] = gettime()+ExpiraLicenta;
 					format(string, MAXO_TEXT, "UPDATE players SET DrivingLicense = %d WHERE ID = %d", PlayerInfo[targetid][pDrivingLicense], PlayerInfo[targetid][pSQLID]);
 					mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
-					format(string, MAXO_TEXT, "* Admin %s has give you the driving license valid 100 hours.", PlayerName(playerid));
+					format(string, MAXO_TEXT, "* Admin %s has give you the driving license valid untill %s.", PlayerName(playerid), DateToTimestamp(PlayerInfo[targetid][pDrivingLicense], 1));
 					SendClientMessage(targetid, COLOR_LIGHTBLUE, string);
-					format(string, MAXO_TEXT, "* You gave the driving license on %s valid 100 hours.", PlayerName(targetid));
+					format(string, MAXO_TEXT, "* You gave the driving license on %s valid untill %s.", PlayerName(targetid), DateToTimestamp(PlayerInfo[targetid][pDrivingLicense], 1));
 					SendClientMessage(playerid, COLOR_LIGHTBLUE, string);
 					PartialName[playerid][jucator_gasit] = INVALID_PLAYER_ID;
 				}
 				else if(!strcmp(params, "flying", true)) {
-					PlayerInfo[targetid][pFlyingLicense] = 100;
+					PlayerInfo[targetid][pFlyingLicense] = gettime()+ExpiraLicenta;
 					format(string, MAXO_TEXT, "UPDATE players SET FlyingLicense = %d WHERE ID = %d", PlayerInfo[targetid][pFlyingLicense], PlayerInfo[targetid][pSQLID]);
 					mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
-					format(string, MAXO_TEXT, "* Admin %s has give you the flying license valid 100 hours.", PlayerName(playerid));
+					format(string, MAXO_TEXT, "* Admin %s has give you the flying license valid untill %s.", PlayerName(playerid), DateToTimestamp(PlayerInfo[targetid][pFlyingLicense], 1));
 					SendClientMessage(targetid, COLOR_LIGHTBLUE, string);
-					format(string, MAXO_TEXT, "* You gave the flying license on %s valid 100 hours.", PlayerName(targetid));
+					format(string, MAXO_TEXT, "* You gave the flying license on %s valid untill %s.", PlayerName(targetid), DateToTimestamp(PlayerInfo[targetid][pFlyingLicense], 1));
 					SendClientMessage(playerid, COLOR_LIGHTBLUE, string);
 					PartialName[playerid][jucator_gasit] = INVALID_PLAYER_ID;
 				}
 				else if(!strcmp(params, "sailing", true)) {
-					PlayerInfo[targetid][pSailingLicense] = 100;
+					PlayerInfo[targetid][pSailingLicense] = gettime()+ExpiraLicenta;
 					format(string, MAXO_TEXT, "UPDATE players SET SailingLicense = %d WHERE ID = %d", PlayerInfo[targetid][pSailingLicense], PlayerInfo[targetid][pSQLID]);
 					mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
-					format(string, MAXO_TEXT, "* Admin %s has give you the sailing license valid 100 hours.", PlayerName(playerid));
+					format(string, MAXO_TEXT, "* Admin %s has give you the sailing license valid untill %s.", PlayerName(playerid), DateToTimestamp(PlayerInfo[targetid][pSailingLicense], 1));
 					SendClientMessage(targetid, COLOR_LIGHTBLUE, string);
-					format(string, MAXO_TEXT, "* You gave the sailing license on %s valid 100 hours.", PlayerName(targetid));
+					format(string, MAXO_TEXT, "* You gave the sailing license on %s valid untill %s.", PlayerName(targetid), DateToTimestamp(PlayerInfo[targetid][pSailingLicense], 1));
 					SendClientMessage(playerid, COLOR_LIGHTBLUE, string);
 					PartialName[playerid][jucator_gasit] = INVALID_PLAYER_ID;
 				}

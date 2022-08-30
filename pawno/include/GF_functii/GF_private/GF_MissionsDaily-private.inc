@@ -62,7 +62,7 @@ stock GivePlayerMission(playerid) {
 
 stock ResetPlayerMission() {
 	new query[MAXO_TEXT];
-	mysql_tquery(connectionHandle, "UPDATE players SET DailyMission = -1, Progress = 0, DailyMission2 = -1, Progress2 = 0, NeedProgress1 = 0, NeedProgress2 = 0", "NoReturnThread", "d", UPDATE_THREAD_ID);
+	mysql_tquery(connectionHandle, "UPDATE players SET DailyMission1 = -1, Progress = 0, DailyMission2 = -1, Progress2 = 0, NeedProgress1 = 0, NeedProgress2 = 0", "NoReturnThread", "d", UPDATE_THREAD_ID);
     foreach(Player, i) {
         if(IsPlayerConnected(i) && gPlayerLogged{i}) {
 			PlayerInfo[i][pDailyMission][0] = RandomEx(MISSION_RENTCAR, MISSION_BUYFOOD);

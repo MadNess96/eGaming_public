@@ -493,24 +493,26 @@ stock LoadCurseFMACheckpoints(idcursa) {
 	return true;
 }
 
-function LoadRacez2() {
+function LoadRacez2()
+{
 	rows = cache_num_rows();
-	if(rows)  {
+	if(rows) 
+	{
 		for(new r; r < rows; r++) {
 			Race[r][IDCursaDB] = cache_get_row_int(r, 1);
-			cache_get_row(r, 2, Race[r][Nome], .max_len = MAX_PLAYER_NAME); 
+			cache_get_row(r, 2, Race[r][Nome], .max_len = MAX_PLAYER_NAME); // race name
 			Race[r][Laps] = cache_get_row_int(r, 3);
 			Race[r][Costs] = cache_get_row_int(r, 4);
-			Race[r][Record] = cache_get_row_int(r, 5);
-			cache_get_row(r, 6, Race[r][RacePLRecord], .max_len = MAX_PLAYER_NAME); 
-			cache_get_row(r, 7, Race[r][RCreator], .max_len = MAX_PLAYER_NAME); 
-			Race[r][Chase] = cache_get_row_int(r, 8);
+			cache_get_row(r, 5, Race[r][RCreator], .max_len = MAX_PLAYER_NAME); // player creator
+			Race[r][Chase] = cache_get_row_int(r, 6);
+			Race[r][Record] = cache_get_row_int(r, 7);
+			cache_get_row(r, 8, Race[r][RacePLRecord], .max_len = MAX_PLAYER_NAME); // player record
 			Race[r][Air] = cache_get_row_int(r, 9);
 			LoadCurseFMACheckpoints(r);
 		}
 		AllLoadedRaces = rows;
 	} else printf("No FMA Races loaded from table Races_id.");
-	return true;
+	return 1;
 }
 
 function LoadRacesCheckpoints(idcursa) {
@@ -518,9 +520,9 @@ function LoadRacesCheckpoints(idcursa) {
 	if(rows)  {
 		Race[idcursa][CheckpointNr] = -1;
 		for(new r; r < rows; r++) {
-			CheckpointRace[idcursa][r][CXPos] = cache_get_row_float(r, 0);
-			CheckpointRace[idcursa][r][CYPos] = cache_get_row_float(r, 1);
-			CheckpointRace[idcursa][r][CZPos] = cache_get_row_float(r, 2);
+			CheckpointRace[idcursa][r][CXPos] = cache_get_row_float(r, 2);
+			CheckpointRace[idcursa][r][CYPos] = cache_get_row_float(r, 3);
+			CheckpointRace[idcursa][r][CZPos] = cache_get_row_float(r, 4);
 			Race[idcursa][CheckpointNr]++;
 		}
 		Iter_Add(CurseFMA, idcursa); 
@@ -606,7 +608,7 @@ stock NewRecordFMA(playerid) {
 		Secondi = RacePL[playerid][TimeRC]-(Minuti*60),
 		string[MAXO_TEXT];
 	
-	format(VeryLargeString,sizeof(VeryLargeString),"[{A60099}FMARace{FFFFFF}] Player: {8ECE46}%s"#ALB" Track: {446ED1}%s"#ALB" Record: {C14124}%02d:%02d.",PlayerName(playerid),Race[IDCursa][Nome],Minuti,Secondi);
+	format(VeryLargeString,sizeof(VeryLargeString),"[{A60099}FMARace{FFFFFF}] Player: {8ECE46}%s"ALB" Track: {446ED1}%s"ALB" Record: {C14124}%02d:%02d.",PlayerName(playerid),Race[IDCursa][Nome],Minuti,Secondi);
 	SendFMARaceMessage(VeryLargeString);
 	clear.string(VeryLargeString);
 	new RecordPlayer[MAX_PLAYER_NAME];
@@ -683,7 +685,7 @@ COMMAND:racebuilder(playerid) {
 	if(IDCursa != INVALID_RACE_ID) return SendClientMessage(playerid,COLOR_WHITE,"[{A60099}FMARace{FFFFFF}] You cannot build races when are loaded races.");
 	if(RacePL[playerid][IdRace] != INVALID_RACE_ID) return SendClientMessage(playerid,COLOR_WHITE,"[{A60099}FMARace{FFFFFF}] You cannot build races while racing.");
 	if(PlayerInfo[playerid][pLeader] != FACT_FMA) return SendClientMessage(playerid,COLOR_WHITE,"[{A60099}FMARace{FFFFFF}] Only the leader can build races."); 
-	ShowPlayerDialog(playerid,DIALOGINFOBuilder,DIALOG_STYLE_MSGBOX,"Info Builder",""#ALB"Welcome in the builder mode of {C14124}eGaming Racing"#ALB".\nNow you have to insert some race informations:\n•Race's Name\n•Laps\n•Cost\n•Creation of a checkpoint list\n\nNote: During the builder mode you cannot join races.","Proceed","Close");
+	ShowPlayerDialog(playerid,DIALOGINFOBuilder,DIALOG_STYLE_MSGBOX,"Info Builder",""ALB"Welcome in the builder mode of {C14124}eGaming Racing"ALB".\nNow you have to insert some race informations:\n•Race's Name\n•Laps\n•Cost\n•Creation of a checkpoint list\n\nNote: During the builder mode you cannot join races.","Proceed","Close");
 	return true;
 }
 
@@ -701,8 +703,8 @@ COMMAND:createcp(playerid) {
 	CheckpointRace[idcursa][idcheck][CYPos] = YPosizione;
 	CheckpointRace[idcursa][idcheck][CZPos] = ZPosizione;
 	switch (Race[idcursa][CheckpointNr]) {
-		case 0: format(string, sizeof(string), "[{A60099}FMARace{FFFFFF}] [CHECKPOINT:] "#ALB"Checkpoint %d saved. (Start line here).", Race[idcursa][CheckpointNr]);
-		default: format(string, sizeof(string), "[{A60099}FMARace{FFFFFF}] [CHECKPOINT:] "#ALB"Checkpoint %d saved.", Race[idcursa][CheckpointNr]);
+		case 0: format(string, sizeof(string), "[{A60099}FMARace{FFFFFF}] [CHECKPOINT:] "ALB"Checkpoint %d saved. (Start line here).", Race[idcursa][CheckpointNr]);
+		default: format(string, sizeof(string), "[{A60099}FMARace{FFFFFF}] [CHECKPOINT:] "ALB"Checkpoint %d saved.", Race[idcursa][CheckpointNr]);
 	}
 	SendClientMessage(playerid,COLOR_WHITE, string);
 	Race[idcursa][CheckpointNr]++;
@@ -794,7 +796,7 @@ stock RaceSysOnDialogResponse(playerid, dialogid, response, listitem, inputtext[
 			Race[idnewrace][Air] = 0;
 		}
 		Race[idnewrace][CheckpointNr] = 0;
-		ShowPlayerDialog(playerid,DIALOGINFOGARA2,0,"Race Info Menu",""ALB"You created the race's info file.\nNow you need a checkpoint list.\nUse the command \"{C14124}/createcp"#ALB"\" to create checkpoint for your race.\nOnce you've finished, type \"{C14124}/lastcp"#ALB"\" to exit builder mode and load the new race.","Go","");
+		ShowPlayerDialog(playerid,DIALOGINFOGARA2,0,"Race Info Menu",""ALB"You created the race's info file.\nNow you need a checkpoint list.\nUse the command \"{C14124}/createcp"ALB"\" to create checkpoint for your race.\nOnce you've finished, type \"{C14124}/lastcp"ALB"\" to exit builder mode and load the new race.","Go","");
 		return 1;
 	}
 	else if(dialogid==DIALOGINSEGUIMENTO) {
@@ -813,7 +815,7 @@ stock RaceSysOnDialogResponse(playerid, dialogid, response, listitem, inputtext[
 	}
 	else if(dialogid==DIALOGCostsGARA) {
 		if(response) {
-			if(!strlen(inputtext) || !isNumeric(inputtext) || strval(inputtext)<=0) return ShowPlayerDialog(playerid,DIALOGCostsGARA,DIALOG_STYLE_INPUT,"Race's Cost",""#ALB"Type the cost to join your race (min $1):","Continue","Abort");
+			if(!strlen(inputtext) || !isNumeric(inputtext) || strval(inputtext)<=0) return ShowPlayerDialog(playerid,DIALOGCostsGARA,DIALOG_STYLE_INPUT,"Race's Cost",""ALB"Type the cost to join your race (min $1):","Continue","Abort");
 			Race[idnewrace][Costs] = strval(inputtext);
 			ShowPlayerDialog(playerid,DIALOGINSEGUIMENTO,DIALOG_STYLE_MSGBOX,"Chase option",""ALB"Do you want this race to be a Chase type?","Yes","No");
 			return 1;
@@ -824,7 +826,7 @@ stock RaceSysOnDialogResponse(playerid, dialogid, response, listitem, inputtext[
 		}
 	}
 	else if(dialogid==DIALOGLapsGARA) {
-		if(!strlen(inputtext) || !isNumeric(inputtext) || strval(inputtext)<=0) return ShowPlayerDialog(playerid,DIALOGLapsGARA,DIALOG_STYLE_INPUT,"Race's Laps",""#ALB"ERROR:\nType the number of laps for your races (1:sprint 2-more:circuit)","Continue","");
+		if(!strlen(inputtext) || !isNumeric(inputtext) || strval(inputtext)<=0) return ShowPlayerDialog(playerid,DIALOGLapsGARA,DIALOG_STYLE_INPUT,"Race's Laps",""ALB"ERROR:\nType the number of laps for your races (1:sprint 2-more:circuit)","Continue","");
 		Race[idnewrace][Laps] = strval(inputtext);
 		ShowPlayerDialog(playerid,DIALOGCostsGARA,DIALOG_STYLE_INPUT,"Race's Cost",""ALB"Type the cost to join your race (min 1):","Continue","Abort");
 		return 1;

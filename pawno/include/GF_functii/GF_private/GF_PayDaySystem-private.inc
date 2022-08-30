@@ -132,14 +132,6 @@ stock PayDay(playerid) {
 		mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 		format(string, MAXO_TEXT, "UPDATE players SET PayCheck = %d, GiftPoints = %d WHERE ID = %d", PlayerInfo[playerid][pPayCheck], PlayerInfo[playerid][pGiftPoints], PlayerInfo[playerid][pSQLID]);
 		mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
-		if(PlayerInfo[playerid][pDrivingLicense] > 0)
-			PlayerInfo[playerid][pDrivingLicense] --;
-		if(PlayerInfo[playerid][pFlyingLicense] > 0)
-			PlayerInfo[playerid][pFlyingLicense] --;
-		if(PlayerInfo[playerid][pSailingLicense] > 0)
-			PlayerInfo[playerid][pSailingLicense] --;
-		format(string, MAXO_TEXT2, "UPDATE players SET DrivingLicense = %d, FlyingLicense = %d, SailingLicense = %d WHERE ID = %d", PlayerInfo[playerid][pDrivingLicense], PlayerInfo[playerid][pFlyingLicense], PlayerInfo[playerid][pSailingLicense], PlayerInfo[playerid][pSQLID]);
-		mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 		clear.string(string);
 	}
 	return true;

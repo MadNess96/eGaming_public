@@ -131,12 +131,13 @@ stock DMVOnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) {
 						ClearChatBox(playerid, 5);
 						SafeGivePlayerMoney(playerid, -(PlayerInfo[playerid][pLevel]*2500));
 						PlayerPlayMusic(playerid);
-						PlayerInfo[playerid][pDrivingLicense] = 100;
+						PlayerInfo[playerid][pDrivingLicense] = gettime()+ExpiraLicenta;
 						format(string, MAXO_TEXT, "UPDATE players SET DrivingLicense = %d WHERE ID = %d", PlayerInfo[playerid][pDrivingLicense], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						SendClientMessage(playerid, COLOR_GREEN, "________________________________________________");
 						SendClientMessage(playerid, -1, "* Felicitari! Ti-ai reinnoit permisul de conducere.");
-						SendClientMessage(playerid, -1, "* Ti-a fost inmanat permisul de conducere valabil: "GALBEN"100 "ALB"de ore.");
+						format(string, MAXO_TEXT, "* Ti-a fost inmanat permisul de conducere valabil pana la: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pDrivingLicense], 1));
+						SendClientMessage(playerid, -1, string);
 						clear.string(string);
 					} else ShowPlayerDialog(playerid, DIALOGID_NO_ACTION, DIALOG_STYLE_MSGBOX, "Driving Motor Vehicle", "This exam was beed cancelled.\nYou have already a driving license valid.", "Close", "");
 				}

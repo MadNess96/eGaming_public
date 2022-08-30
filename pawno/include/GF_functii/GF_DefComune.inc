@@ -314,7 +314,6 @@ new levelcost = 5000;
 new levelexp = 4;
 new mapname[64];
 new ExpiraLicenta = 2592000;
-#pragma unused ExpiraLicenta
 new hitfound = 0;
 new HitM = 999;
 new cchargetime = 60;

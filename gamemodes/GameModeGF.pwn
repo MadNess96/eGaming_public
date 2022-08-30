@@ -11,9 +11,9 @@
 // -- GameMode created by Kurama --
 // -- Creation on date: January 2018 --
 
-#define _srv_official "da"
+//#define _srv_official "da"
 
-//#define _srv_test "da"
+#define _srv_test "da"
 
 #if defined _srv_official
 	#define gamemode_version "eGaming RPG v4 - Rebuild"
@@ -1337,7 +1337,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
 		}
 	}
 	if(GetPlayerState(playerid) == PLAYER_STATE_DRIVER) {
-		if(PlayerInfo[playerid][pDrivingLicense] < 1 && !IsVehicleBike(vID) && !IsVehiclePlane(vID) && !IsVehicleBoat(vID)) {
+		if(PlayerInfo[playerid][pDrivingLicense] <= gLocalTimeStamp && !IsVehicleBike(vID) && !IsVehiclePlane(vID) && !IsVehicleBoat(vID)) {
 			if(!TakingLesson{playerid}) {
 				SendClientMessage(playerid, -1, "");
 				SendClientMessage(playerid, COLOR_YELLOW, "Avertisment! "GRI3"Nu detii o licenta valida de condus autovehicule.");
@@ -1347,7 +1347,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
 				RemovePlayerFromVehicle(playerid);
 			}
 		}
-		if(PlayerInfo[playerid][pFlyingLicense] < 1 && IsVehiclePlane(vID)) {
+		if(PlayerInfo[playerid][pFlyingLicense] <= gLocalTimeStamp && IsVehiclePlane(vID)) {
 			if(!TakingLesson{playerid}) {
 				SendClientMessage(playerid, -1, "");
 				SendClientMessage(playerid, COLOR_YELLOW, "Avertisment! "GRI3"Nu detii o licenta valida pentru a pilota avioane.");
@@ -1357,7 +1357,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
 				RemovePlayerFromVehicle(playerid);
 			}
 		}
-		if(PlayerInfo[playerid][pSailingLicense] < 1 && IsVehicleBoat(vID)) {
+		if(PlayerInfo[playerid][pSailingLicense] <= gLocalTimeStamp && IsVehicleBoat(vID)) {
 			if(!TakingLesson{playerid}) {
 				SendClientMessage(playerid, -1, "");
 				SendClientMessage(playerid, COLOR_YELLOW, "Avertisment! "GRI3"Nu detii o licenta valida de navigat.");

@@ -62,8 +62,6 @@ stock SavePlayerData(playerid) {
 	mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 	format(string, MAXO_TEXT, "UPDATE players SET DisableTime = %d WHERE ID = %d", PlayerInfo[playerid][pDisableTime], PlayerInfo[playerid][pSQLID]);
 	mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
-	format(string, MAXO_TEXT, "UPDATE players SET Status = 0 WHERE ID = %d", PlayerInfo[playerid][pSQLID]);
-	mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 	clear.string(string);
 	return true;
 }

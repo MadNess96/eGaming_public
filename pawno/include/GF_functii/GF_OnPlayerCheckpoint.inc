@@ -461,7 +461,7 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
 						TakingLesson{playerid} = false;
 						pTestType{playerid} = TEST_TYPE_NONE;
 
-						PlayerInfo[playerid][pDrivingLicense] = 100;
+						PlayerInfo[playerid][pDrivingLicense] = gettime()+ExpiraLicenta;
 						#if defined _stream_objects
 							MoveDynamicObject(poartaDMV2, 283.5161,-1542.7693,25.2140, 1);
 						#else
@@ -469,7 +469,8 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
 						#endif
 						SendClientMessage(playerid, COLOR_GREEN, "________________________________________________");
 						SendClientMessage(playerid, -1, "* Felicitari! Ai fost admis la examenul de conducere.");
-						SendClientMessage(playerid, -1, "* Ti-a fost inmanat permisul de conducere valabil: "GALBEN"100 "ALB"de ore.");
+						format(string, MAXO_TEXT, "* Ti-a fost inmanat permisul de conducere valabil pana la: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pDrivingLicense], 1));
+						SendClientMessage(playerid, -1, string);
 						format(string, MAXO_TEXT, "UPDATE players SET DrivingLicense = %d WHERE ID = %d", PlayerInfo[playerid][pDrivingLicense], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						SafeSetPlayerVirtualWorld(playerid, 0);
@@ -547,13 +548,14 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
 						PlayerInfo[playerid][pCash] -= (PlayerInfo[playerid][pLevel]*3000);
 						SafeSetPlayerPos(playerid, 1521.0065, -2438.7390, 13.5547);
 						ClearChatBox(playerid, 5);
-						PlayerInfo[playerid][pFlyingLicense] = 100;
+						PlayerInfo[playerid][pFlyingLicense] = gettime()+ExpiraLicenta;
 						format(string, MAXO_TEXT, "UPDATE players SET FlyingLicense = %d WHERE ID = %d", PlayerInfo[playerid][pFlyingLicense], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						format(string, MAXO_TEXT, "UPDATE players SET Cash = %d WHERE ID = %d", PlayerInfo[playerid][pCash], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						SendClientMessage(playerid, COLOR_LIGHTBLUE, "Felicitari! Ai fost admis la examenul de pilotaj.");
-						format(string, MAXO_TEXT, "* Ti-a fost inmanat breverul de pilotaj valabil: "GALBEN"%d ore", PlayerInfo[playerid][pFlyingLicense]);
+						format(string, MAXO_TEXT, "* Ti-a fost brevetul de zbor valabil pana la: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pFlyingLicense], 1));
+						SendClientMessage(playerid, -1, string);
 						SendClientMessage(playerid, COLOR_GRAD1, string);
 						clear.string(string);
 					}
@@ -615,13 +617,14 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
 						pTestType{playerid} = TEST_TYPE_NONE;
 						PlayerInfo[playerid][pCash] -= (PlayerInfo[playerid][pLevel]*2000);
 						SafeSetPlayerPos(playerid, 154.3131, -1941.2975, 3.7734);
-						PlayerInfo[playerid][pSailingLicense] = 100;
+						PlayerInfo[playerid][pSailingLicense] = gettime()+ExpiraLicenta;
 						format(string, MAXO_TEXT, "UPDATE players SET SailingLicense = %d WHERE ID = %d", PlayerInfo[playerid][pSailingLicense], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						format(string, MAXO_TEXT, "UPDATE players SET Cash = %d WHERE ID = %d", PlayerInfo[playerid][pCash], PlayerInfo[playerid][pSQLID]);
 						mysql_tquery(connectionHandle, string, "NoReturnThread", "d", UPDATE_THREAD_ID);
 						SendClientMessage(playerid, COLOR_LIGHTBLUE, "Felicitari! Ai fost admis la examenul de navigat.");
-						format(string, MAXO_TEXT, "* Ti-a fost inmanata licenta de navigat valabila: "GALBEN"%d ore", PlayerInfo[playerid][pSailingLicense]);
+						format(string, MAXO_TEXT, "* Ti-a fost licenta de navigat valabila pana la: "GALBEN"%s", DateToTimestamp(PlayerInfo[playerid][pSailingLicense], 1));
+						SendClientMessage(playerid, -1, string);
 						SendClientMessage(playerid, COLOR_GRAD1, string);
 						clear.string(string);
 					}

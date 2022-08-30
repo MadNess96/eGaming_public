@@ -296,3 +296,1299 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [10:12:43] [connection] 127.0.0.1:64306 requests connection cookie.
 [10:12:44] [connection] incoming connection: 127.0.0.1:64306 id: 0
 [10:12:44] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:01:43] 
+[15:01:44] Server Plugins
+[15:01:44] --------------
+[15:01:44]  Loading plugin: mysql
+[15:01:44]  >> plugin.mysql: R39 successfully loaded.
+[15:01:44]   Loaded.
+[15:01:44]  Loading plugin: streamer
+[15:01:45] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[15:01:45]   Loaded.
+[15:01:45]  Loading plugin: sscanf
+[15:01:45] 
+
+[15:01:45]  ===============================
+
+[15:01:45]       sscanf plugin loaded.     
+
+[15:01:45]          Version:  2.8.1        
+
+[15:01:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:01:45]  ===============================
+
+[15:01:45]   Loaded.
+[15:01:45]  Loaded 3 plugins.
+
+[15:01:45] 
+[15:01:45] Filterscripts
+[15:01:45] ---------------
+[15:01:45]   Loaded 0 filterscripts.
+
+[15:01:45] It stabilizes the connection to the database ...
+[15:01:45] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[15:01:45] ServerUnlocked - called (26) seconds...
+[15:01:45] 
+---------------------------------------
+[15:01:45] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[15:01:45] ---------------------------------------
+
+[15:01:45] Number of vehicle models: 0
+[15:01:45] LoadFactionsThread() - called (12 factions loaded).
+[15:01:45] LoadVehiclesThread() - called (212 vehicles loaded.
+[15:01:45] LoadHousesThread() - called (48 houses loaded).
+[15:01:45] LoadBizThread() - called (18 business loaded).
+[15:01:45] InitSkinThread() - called (11 skins loaded).
+[15:01:45] InitTurfRivalWars() - called (33 turfs loaded).
+[15:01:45] InitSpawnZone() - called (11 zones loaded).
+[15:01:45] LoadSafesThread() - called (10 safes loaded).
+[15:01:45] LoadJobsThread() - called (5 jobs loaded).
+[15:01:45] LoadDealerShipThread() - called (92 vehicles loaded).
+[15:01:45] No FMA Races loaded from table Races_id.
+[15:01:45] OtherTimer - called
+[15:01:46] SendMSG - called
+[15:01:46] DiseasePayDay - called
+[15:01:46] DiseasePlayerHealth - called
+[15:01:46] AleatorContracts - called
+[15:01:46] CheckGas - called
+[15:01:46] ShowMenuInBusiness - called
+[15:02:13] Server password has been removed.
+[15:03:23] [connection] 127.0.0.1:52788 requests connection cookie.
+[15:03:24] [connection] incoming connection: 127.0.0.1:52788 id: 0
+[15:03:24] [join] Kurama has joined the server (0:127.0.0.1)
+[15:03:58] [part] Kurama has left the server (0:0)
+[15:04:17] [connection] 127.0.0.1:52179 requests connection cookie.
+[15:04:18] [connection] incoming connection: 127.0.0.1:52179 id: 0
+[15:04:18] [join] Kurama has joined the server (0:127.0.0.1)
+[15:04:54] [part] Kurama has left the server (0:0)
+[15:05:11] [connection] 127.0.0.1:51235 requests connection cookie.
+[15:05:12] [connection] incoming connection: 127.0.0.1:51235 id: 0
+[15:05:12] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:14:23] 
+[15:14:23] Server Plugins
+[15:14:23] --------------
+[15:14:23]  Loading plugin: mysql
+[15:14:23]  >> plugin.mysql: R39 successfully loaded.
+[15:14:23]   Loaded.
+[15:14:23]  Loading plugin: streamer
+[15:14:23] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[15:14:23]   Loaded.
+[15:14:23]  Loading plugin: sscanf
+[15:14:23] 
+
+[15:14:23]  ===============================
+
+[15:14:23]       sscanf plugin loaded.     
+
+[15:14:23]          Version:  2.8.1        
+
+[15:14:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:14:23]  ===============================
+
+[15:14:23]   Loaded.
+[15:14:23]  Loaded 3 plugins.
+
+[15:14:23] 
+[15:14:23] Filterscripts
+[15:14:23] ---------------
+[15:14:23]   Loaded 0 filterscripts.
+
+[15:14:23] It stabilizes the connection to the database ...
+[15:14:23] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[15:14:23] ServerUnlocked - called (26) seconds...
+[15:14:23] 
+---------------------------------------
+[15:14:23] Running eGaming RPG v4 - Rebuild - by Kurama 
+
+[15:14:23] ---------------------------------------
+
+[15:14:23] Number of vehicle models: 0
+[15:14:23] LoadFactionsThread() - called (12 factions loaded).
+[15:14:23] LoadVehiclesThread() - called (212 vehicles loaded.
+[15:14:23] LoadHousesThread() - called (48 houses loaded).
+[15:14:23] LoadBizThread() - called (18 business loaded).
+[15:14:23] InitSkinThread() - called (11 skins loaded).
+[15:14:23] InitTurfRivalWars() - called (33 turfs loaded).
+[15:14:23] InitSpawnZone() - called (11 zones loaded).
+[15:14:23] LoadSafesThread() - called (10 safes loaded).
+[15:14:23] LoadJobsThread() - called (5 jobs loaded).
+[15:14:23] LoadDealerShipThread() - called (92 vehicles loaded).
+[15:14:23] No FMA Races loaded from table Races_id.
+[15:14:23] OtherTimer - called
+[15:14:24] SendMSG - called
+[15:14:24] DiseasePayDay - called
+[15:14:24] DiseasePlayerHealth - called
+[15:14:24] AleatorContracts - called
+[15:14:24] CheckGas - called
+[15:14:24] ShowMenuInBusiness - called
+[15:14:52] Server password has been removed.
+[15:15:03] [connection] 127.0.0.1:65341 requests connection cookie.
+[15:15:04] [connection] incoming connection: 127.0.0.1:65341 id: 0
+[15:15:04] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:20:43] 
+[15:20:43] Server Plugins
+[15:20:43] --------------
+[15:20:43]  Loading plugin: mysql
+[15:20:43]  >> plugin.mysql: R39 successfully loaded.
+[15:20:43]   Loaded.
+[15:20:43]  Loading plugin: streamer
+[15:20:43] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[15:20:43]   Loaded.
+[15:20:43]  Loading plugin: sscanf
+[15:20:43] 
+
+[15:20:43]  ===============================
+
+[15:20:43]       sscanf plugin loaded.     
+
+[15:20:43]          Version:  2.8.1        
+
+[15:20:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:20:43]  ===============================
+
+[15:20:43]   Loaded.
+[15:20:43]  Loaded 3 plugins.
+
+[15:20:43] 
+[15:20:43] Filterscripts
+[15:20:43] ---------------
+[15:20:43]   Loaded 0 filterscripts.
+
+[15:20:43] It stabilizes the connection to the database ...
+[15:20:43] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[15:20:43] Setting server password to: "test037rpg"
+[15:20:43] 
+---------------------------------------
+[15:20:43] Running eGaming RPG v.Test- - by Kurama 
+
+[15:20:43] ---------------------------------------
+
+[15:20:43] Number of vehicle models: 0
+[15:20:43] LoadFactionsThread() - called (12 factions loaded).
+[15:20:43] LoadVehiclesThread() - called (212 vehicles loaded.
+[15:20:43] LoadHousesThread() - called (48 houses loaded).
+[15:20:43] LoadBizThread() - called (18 business loaded).
+[15:20:43] InitSkinThread() - called (11 skins loaded).
+[15:20:43] InitTurfRivalWars() - called (33 turfs loaded).
+[15:20:43] InitSpawnZone() - called (11 zones loaded).
+[15:20:43] LoadSafesThread() - called (10 safes loaded).
+[15:20:43] LoadJobsThread() - called (5 jobs loaded).
+[15:20:43] LoadDealerShipThread() - called (92 vehicles loaded).
+[15:20:43] OtherTimer - called
+[15:20:43] 15 checkpoints loaded for Race 0.
+[15:20:44] DiseasePayDay - called
+[15:20:44] DiseasePlayerHealth - called
+[15:20:44] AleatorContracts - called
+[15:20:44] SendMSG - called
+[15:20:44] CheckGas - called
+[15:20:44] ShowMenuInBusiness - called
+[15:21:20] [connection] 127.0.0.1:55404 requests connection cookie.
+[15:21:21] [connection] incoming connection: 127.0.0.1:55404 id: 0
+[15:21:31] [connection] incoming connection: 127.0.0.1:60575 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:27:54] 
+[15:27:54] Server Plugins
+[15:27:54] --------------
+[15:27:54]  Loading plugin: mysql
+[15:27:54]  >> plugin.mysql: R39 successfully loaded.
+[15:27:54]   Loaded.
+[15:27:54]  Loading plugin: streamer
+[15:27:54] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[15:27:54]   Loaded.
+[15:27:54]  Loading plugin: sscanf
+[15:27:54] 
+
+[15:27:54]  ===============================
+
+[15:27:54]       sscanf plugin loaded.     
+
+[15:27:54]          Version:  2.8.1        
+
+[15:27:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:27:54]  ===============================
+
+[15:27:54]   Loaded.
+[15:27:54]  Loaded 3 plugins.
+
+[15:27:54] 
+[15:27:54] Filterscripts
+[15:27:54] ---------------
+[15:27:54]   Loaded 0 filterscripts.
+
+[15:27:54] It stabilizes the connection to the database ...
+[15:27:54] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[15:27:54] Setting server password to: "test037rpg"
+[15:27:54] 
+---------------------------------------
+[15:27:54] Running eGaming RPG v.Test- - by Kurama 
+
+[15:27:54] ---------------------------------------
+
+[15:27:54] Number of vehicle models: 0
+[15:27:54] LoadFactionsThread() - called (12 factions loaded).
+[15:27:54] LoadVehiclesThread() - called (212 vehicles loaded.
+[15:27:54] LoadHousesThread() - called (48 houses loaded).
+[15:27:54] LoadBizThread() - called (18 business loaded).
+[15:27:54] InitSkinThread() - called (11 skins loaded).
+[15:27:54] InitTurfRivalWars() - called (33 turfs loaded).
+[15:27:54] InitSpawnZone() - called (11 zones loaded).
+[15:27:54] LoadSafesThread() - called (10 safes loaded).
+[15:27:54] LoadJobsThread() - called (5 jobs loaded).
+[15:27:54] LoadDealerShipThread() - called (92 vehicles loaded).
+[15:27:54] 15 checkpoints loaded for Race 0.
+[15:27:54] OtherTimer - called
+[15:27:54] SendMSG - called
+[15:27:55] DiseasePayDay - called
+[15:27:55] DiseasePlayerHealth - called
+[15:27:55] AleatorContracts - called
+[15:27:55] CheckGas - called
+[15:27:55] ShowMenuInBusiness - called
+[15:29:22] [connection] 127.0.0.1:50209 requests connection cookie.
+[15:29:23] [connection] incoming connection: 127.0.0.1:50209 id: 0
+[15:29:33] [connection] incoming connection: 127.0.0.1:64213 id: 0
+[15:29:43] [connection] incoming connection: 127.0.0.1:55188 id: 0
+[15:30:17] [connection] incoming connection: 127.0.0.1:52342 id: 0
+[15:31:11] [connection] 127.0.0.1:50117 requests connection cookie.
+[15:31:12] [connection] incoming connection: 127.0.0.1:50117 id: 0
+[15:31:12] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:46:36] 
+[18:46:36] Server Plugins
+[18:46:36] --------------
+[18:46:36]  Loading plugin: mysql
+[18:46:36]  >> plugin.mysql: R39 successfully loaded.
+[18:46:36]   Loaded.
+[18:46:36]  Loading plugin: streamer
+[18:46:36] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[18:46:36]   Loaded.
+[18:46:36]  Loading plugin: sscanf
+[18:46:36] 
+
+[18:46:36]  ===============================
+
+[18:46:36]       sscanf plugin loaded.     
+
+[18:46:36]          Version:  2.8.1        
+
+[18:46:36]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:46:36]  ===============================
+
+[18:46:36]   Loaded.
+[18:46:36]  Loaded 3 plugins.
+
+[18:46:36] 
+[18:46:36] Filterscripts
+[18:46:36] ---------------
+[18:46:36]   Loaded 0 filterscripts.
+
+[18:46:36] It stabilizes the connection to the database ...
+[18:46:36] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[18:46:36] Setting server password to: "test037rpg"
+[18:46:36] 
+---------------------------------------
+[18:46:36] Running eGaming RPG v.Test- - by Kurama 
+
+[18:46:36] ---------------------------------------
+
+[18:46:36] Number of vehicle models: 0
+[18:46:36] LoadFactionsThread() - called (12 factions loaded).
+[18:46:36] LoadVehiclesThread() - called (212 vehicles loaded.
+[18:46:36] LoadHousesThread() - called (48 houses loaded).
+[18:46:36] LoadBizThread() - called (18 business loaded).
+[18:46:36] InitSkinThread() - called (11 skins loaded).
+[18:46:36] InitTurfRivalWars() - called (33 turfs loaded).
+[18:46:36] InitSpawnZone() - called (11 zones loaded).
+[18:46:36] LoadSafesThread() - called (10 safes loaded).
+[18:46:36] LoadJobsThread() - called (5 jobs loaded).
+[18:46:36] LoadDealerShipThread() - called (92 vehicles loaded).
+[18:46:36] 15 checkpoints loaded for Race 0.
+[18:46:36] OtherTimer - called
+[18:46:36] SendMSG - called
+[18:46:37] DiseasePayDay - called
+[18:46:37] DiseasePlayerHealth - called
+[18:46:37] AleatorContracts - called
+[18:46:37] CheckGas - called
+[18:46:37] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:53:54] 
+[18:53:54] Server Plugins
+[18:53:54] --------------
+[18:53:54]  Loading plugin: mysql
+[18:53:54]  >> plugin.mysql: R39 successfully loaded.
+[18:53:54]   Loaded.
+[18:53:54]  Loading plugin: streamer
+[18:53:54] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[18:53:54]   Loaded.
+[18:53:54]  Loading plugin: sscanf
+[18:53:54] 
+
+[18:53:54]  ===============================
+
+[18:53:54]       sscanf plugin loaded.     
+
+[18:53:54]          Version:  2.8.1        
+
+[18:53:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:53:54]  ===============================
+
+[18:53:54]   Loaded.
+[18:53:54]  Loaded 3 plugins.
+
+[18:53:55] 
+[18:53:55] Filterscripts
+[18:53:55] ---------------
+[18:53:55]   Loaded 0 filterscripts.
+
+[18:53:55] It stabilizes the connection to the database ...
+[18:53:55] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[18:53:55] Setting server password to: "test037rpg"
+[18:53:55] 
+---------------------------------------
+[18:53:55] Running eGaming RPG v.Test- - by Kurama 
+
+[18:53:55] ---------------------------------------
+
+[18:53:55] Number of vehicle models: 0
+[18:53:55] LoadFactionsThread() - called (12 factions loaded).
+[18:53:55] LoadVehiclesThread() - called (212 vehicles loaded.
+[18:53:55] LoadHousesThread() - called (48 houses loaded).
+[18:53:55] LoadBizThread() - called (18 business loaded).
+[18:53:55] InitSkinThread() - called (11 skins loaded).
+[18:53:55] InitTurfRivalWars() - called (33 turfs loaded).
+[18:53:55] InitSpawnZone() - called (11 zones loaded).
+[18:53:55] LoadSafesThread() - called (10 safes loaded).
+[18:53:55] LoadJobsThread() - called (5 jobs loaded).
+[18:53:55] LoadDealerShipThread() - called (92 vehicles loaded).
+[18:53:55] 15 checkpoints loaded for Race 0.
+[18:53:55] OtherTimer - called
+[18:53:55] SendMSG - called
+[18:53:55] DiseasePayDay - called
+[18:53:55] DiseasePlayerHealth - called
+[18:53:55] AleatorContracts - called
+[18:53:55] CheckGas - called
+[18:53:56] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:00:37] 
+[19:00:37] Server Plugins
+[19:00:37] --------------
+[19:00:37]  Loading plugin: mysql
+[19:00:37]  >> plugin.mysql: R39 successfully loaded.
+[19:00:37]   Loaded.
+[19:00:37]  Loading plugin: streamer
+[19:00:37] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[19:00:37]   Loaded.
+[19:00:37]  Loading plugin: sscanf
+[19:00:37] 
+
+[19:00:37]  ===============================
+
+[19:00:37]       sscanf plugin loaded.     
+
+[19:00:37]          Version:  2.8.1        
+
+[19:00:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:00:37]  ===============================
+
+[19:00:37]   Loaded.
+[19:00:37]  Loaded 3 plugins.
+
+[19:00:37] 
+[19:00:37] Filterscripts
+[19:00:37] ---------------
+[19:00:37]   Loaded 0 filterscripts.
+
+[19:00:37] It stabilizes the connection to the database ...
+[19:00:37] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[19:00:37] Setting server password to: "test037rpg"
+[19:00:37] 
+---------------------------------------
+[19:00:37] Running eGaming RPG v.Test- - by Kurama 
+
+[19:00:37] ---------------------------------------
+
+[19:00:37] Number of vehicle models: 0
+[19:00:37] LoadFactionsThread() - called (12 factions loaded).
+[19:00:38] LoadVehiclesThread() - called (212 vehicles loaded.
+[19:00:38] LoadHousesThread() - called (48 houses loaded).
+[19:00:38] LoadBizThread() - called (18 business loaded).
+[19:00:38] InitSkinThread() - called (11 skins loaded).
+[19:00:38] InitTurfRivalWars() - called (33 turfs loaded).
+[19:00:38] InitSpawnZone() - called (11 zones loaded).
+[19:00:38] LoadSafesThread() - called (10 safes loaded).
+[19:00:38] LoadJobsThread() - called (5 jobs loaded).
+[19:00:38] LoadDealerShipThread() - called (92 vehicles loaded).
+[19:00:38] 15 checkpoints loaded for Race 0.
+[19:00:38] OtherTimer - called
+[19:00:38] SendMSG - called
+[19:00:38] DiseasePayDay - called
+[19:00:38] DiseasePlayerHealth - called
+[19:00:38] AleatorContracts - called
+[19:00:38] CheckGas - called
+[19:00:38] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:03:14] 
+[19:03:14] Server Plugins
+[19:03:14] --------------
+[19:03:14]  Loading plugin: mysql
+[19:03:14]  >> plugin.mysql: R39 successfully loaded.
+[19:03:14]   Loaded.
+[19:03:14]  Loading plugin: streamer
+[19:03:14] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[19:03:14]   Loaded.
+[19:03:14]  Loading plugin: sscanf
+[19:03:14] 
+
+[19:03:14]  ===============================
+
+[19:03:14]       sscanf plugin loaded.     
+
+[19:03:14]          Version:  2.8.1        
+
+[19:03:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:03:14]  ===============================
+
+[19:03:14]   Loaded.
+[19:03:14]  Loaded 3 plugins.
+
+[19:03:14] 
+[19:03:14] Filterscripts
+[19:03:14] ---------------
+[19:03:14]   Loaded 0 filterscripts.
+
+[19:03:14] It stabilizes the connection to the database ...
+[19:03:14] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[19:03:14] Setting server password to: "test037rpg"
+[19:03:14] 
+---------------------------------------
+[19:03:14] Running eGaming RPG v.Test- - by Kurama 
+
+[19:03:14] ---------------------------------------
+
+[19:03:14] Number of vehicle models: 0
+[19:03:14] LoadFactionsThread() - called (12 factions loaded).
+[19:03:14] LoadVehiclesThread() - called (212 vehicles loaded.
+[19:03:14] LoadHousesThread() - called (48 houses loaded).
+[19:03:14] LoadBizThread() - called (18 business loaded).
+[19:03:14] InitSkinThread() - called (11 skins loaded).
+[19:03:14] InitTurfRivalWars() - called (33 turfs loaded).
+[19:03:14] InitSpawnZone() - called (11 zones loaded).
+[19:03:14] LoadSafesThread() - called (10 safes loaded).
+[19:03:14] LoadJobsThread() - called (5 jobs loaded).
+[19:03:14] LoadDealerShipThread() - called (92 vehicles loaded).
+[19:03:14] 15 checkpoints loaded for Race 0.
+[19:03:15] OtherTimer - called
+[19:03:15] SendMSG - called
+[19:03:15] DiseasePayDay - called
+[19:03:15] DiseasePlayerHealth - called
+[19:03:15] AleatorContracts - called
+[19:03:15] CheckGas - called
+[19:03:15] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:05:04] 
+[19:05:04] Server Plugins
+[19:05:04] --------------
+[19:05:04]  Loading plugin: mysql
+[19:05:04]  >> plugin.mysql: R39 successfully loaded.
+[19:05:04]   Loaded.
+[19:05:04]  Loading plugin: streamer
+[19:05:04] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[19:05:04]   Loaded.
+[19:05:04]  Loading plugin: sscanf
+[19:05:04] 
+
+[19:05:04]  ===============================
+
+[19:05:04]       sscanf plugin loaded.     
+
+[19:05:04]          Version:  2.8.1        
+
+[19:05:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:05:04]  ===============================
+
+[19:05:04]   Loaded.
+[19:05:04]  Loaded 3 plugins.
+
+[19:05:04] 
+[19:05:04] Filterscripts
+[19:05:04] ---------------
+[19:05:04]   Loaded 0 filterscripts.
+
+[19:05:04] It stabilizes the connection to the database ...
+[19:05:04] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[19:05:04] Setting server password to: "test037rpg"
+[19:05:04] 
+---------------------------------------
+[19:05:04] Running eGaming RPG v.Test- - by Kurama 
+
+[19:05:04] ---------------------------------------
+
+[19:05:04] Number of vehicle models: 0
+[19:05:04] LoadFactionsThread() - called (12 factions loaded).
+[19:05:04] LoadVehiclesThread() - called (212 vehicles loaded.
+[19:05:04] LoadHousesThread() - called (48 houses loaded).
+[19:05:04] LoadBizThread() - called (18 business loaded).
+[19:05:04] InitSkinThread() - called (11 skins loaded).
+[19:05:04] InitTurfRivalWars() - called (33 turfs loaded).
+[19:05:04] InitSpawnZone() - called (11 zones loaded).
+[19:05:04] LoadSafesThread() - called (10 safes loaded).
+[19:05:04] LoadJobsThread() - called (5 jobs loaded).
+[19:05:04] LoadDealerShipThread() - called (92 vehicles loaded).
+[19:05:04] 15 checkpoints loaded for Race 0.
+[19:05:04] OtherTimer - called
+[19:05:04] SendMSG - called
+[19:05:05] DiseasePayDay - called
+[19:05:05] DiseasePlayerHealth - called
+[19:05:05] AleatorContracts - called
+[19:05:05] CheckGas - called
+[19:05:05] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:15:11] 
+[19:15:11] Server Plugins
+[19:15:11] --------------
+[19:15:11]  Loading plugin: mysql
+[19:15:11]  >> plugin.mysql: R39 successfully loaded.
+[19:15:11]   Loaded.
+[19:15:11]  Loading plugin: streamer
+[19:15:11] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[19:15:11]   Loaded.
+[19:15:11]  Loading plugin: sscanf
+[19:15:11] 
+
+[19:15:11]  ===============================
+
+[19:15:11]       sscanf plugin loaded.     
+
+[19:15:11]          Version:  2.8.1        
+
+[19:15:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:15:11]  ===============================
+
+[19:15:11]   Loaded.
+[19:15:11]  Loaded 3 plugins.
+
+[19:15:11] 
+[19:15:11] Filterscripts
+[19:15:11] ---------------
+[19:15:11]   Loaded 0 filterscripts.
+
+[19:15:11] It stabilizes the connection to the database ...
+[19:15:11] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[19:15:11] Setting server password to: "test037rpg"
+[19:15:11] 
+---------------------------------------
+[19:15:11] Running eGaming RPG v.Test- - by Kurama 
+
+[19:15:11] ---------------------------------------
+
+[19:15:11] Number of vehicle models: 0
+[19:15:11] LoadFactionsThread() - called (12 factions loaded).
+[19:15:12] LoadVehiclesThread() - called (212 vehicles loaded.
+[19:15:12] LoadHousesThread() - called (48 houses loaded).
+[19:15:12] LoadBizThread() - called (18 business loaded).
+[19:15:12] InitSkinThread() - called (11 skins loaded).
+[19:15:12] InitTurfRivalWars() - called (33 turfs loaded).
+[19:15:12] InitSpawnZone() - called (11 zones loaded).
+[19:15:12] LoadSafesThread() - called (10 safes loaded).
+[19:15:12] LoadJobsThread() - called (5 jobs loaded).
+[19:15:12] LoadDealerShipThread() - called (92 vehicles loaded).
+[19:15:12] 15 checkpoints loaded for Race 0.
+[19:15:12] OtherTimer - called
+[19:15:12] SendMSG - called
+[19:15:12] DiseasePayDay - called
+[19:15:12] DiseasePlayerHealth - called
+[19:15:12] AleatorContracts - called
+[19:15:12] CheckGas - called
+[19:15:12] ShowMenuInBusiness - called
+[19:15:58] [connection] 127.0.0.1:64635 requests connection cookie.
+[19:15:59] [connection] incoming connection: 127.0.0.1:64635 id: 0
+[19:15:59] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:20:59] 
+[19:20:59] Server Plugins
+[19:20:59] --------------
+[19:20:59]  Loading plugin: mysql
+[19:20:59]  >> plugin.mysql: R39 successfully loaded.
+[19:20:59]   Loaded.
+[19:20:59]  Loading plugin: streamer
+[19:20:59] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[19:20:59]   Loaded.
+[19:20:59]  Loading plugin: sscanf
+[19:20:59] 
+
+[19:20:59]  ===============================
+
+[19:20:59]       sscanf plugin loaded.     
+
+[19:20:59]          Version:  2.8.1        
+
+[19:20:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:20:59]  ===============================
+
+[19:20:59]   Loaded.
+[19:20:59]  Loaded 3 plugins.
+
+[19:20:59] 
+[19:20:59] Filterscripts
+[19:20:59] ---------------
+[19:20:59]   Loaded 0 filterscripts.
+
+[19:20:59] It stabilizes the connection to the database ...
+[19:20:59] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[19:20:59] Setting server password to: "test037rpg"
+[19:20:59] 
+---------------------------------------
+[19:20:59] Running eGaming RPG v.Test- - by Kurama 
+
+[19:20:59] ---------------------------------------
+
+[19:20:59] Number of vehicle models: 0
+[19:20:59] LoadFactionsThread() - called (12 factions loaded).
+[19:20:59] LoadVehiclesThread() - called (212 vehicles loaded.
+[19:20:59] LoadHousesThread() - called (48 houses loaded).
+[19:20:59] LoadBizThread() - called (18 business loaded).
+[19:20:59] InitSkinThread() - called (11 skins loaded).
+[19:20:59] InitTurfRivalWars() - called (33 turfs loaded).
+[19:20:59] InitSpawnZone() - called (11 zones loaded).
+[19:20:59] LoadSafesThread() - called (10 safes loaded).
+[19:20:59] LoadJobsThread() - called (5 jobs loaded).
+[19:20:59] LoadDealerShipThread() - called (92 vehicles loaded).
+[19:20:59] 15 checkpoints loaded for Race 0.
+[19:20:59] OtherTimer - called
+[19:21:00] SendMSG - called
+[19:21:00] DiseasePayDay - called
+[19:21:00] DiseasePlayerHealth - called
+[19:21:00] AleatorContracts - called
+[19:21:00] CheckGas - called
+[19:21:00] ShowMenuInBusiness - called
+[19:22:28] [connection] 127.0.0.1:50844 requests connection cookie.
+[19:22:29] [connection] incoming connection: 127.0.0.1:50844 id: 0
+[19:22:29] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:26:09] 
+[07:26:09] Server Plugins
+[07:26:09] --------------
+[07:26:09]  Loading plugin: mysql
+[07:26:10]  >> plugin.mysql: R39 successfully loaded.
+[07:26:10]   Loaded.
+[07:26:10]  Loading plugin: streamer
+[07:26:11] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:26:11]   Loaded.
+[07:26:11]  Loading plugin: sscanf
+[07:26:11] 
+
+[07:26:11]  ===============================
+
+[07:26:11]       sscanf plugin loaded.     
+
+[07:26:11]          Version:  2.8.1        
+
+[07:26:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:26:11]  ===============================
+
+[07:26:11]   Loaded.
+[07:26:11]  Loaded 3 plugins.
+
+[07:26:11] 
+[07:26:11] Filterscripts
+[07:26:11] ---------------
+[07:26:11]   Loaded 0 filterscripts.
+
+[07:26:11] It stabilizes the connection to the database ...
+[07:26:11] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:26:11] Setting server password to: "test037rpg"
+[07:26:11] 
+---------------------------------------
+[07:26:11] Running eGaming RPG v.Test- - by Kurama 
+
+[07:26:11] ---------------------------------------
+
+[07:26:11] Number of vehicle models: 0
+[07:26:11] LoadFactionsThread() - called (12 factions loaded).
+[07:26:12] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:26:12] LoadHousesThread() - called (48 houses loaded).
+[07:26:12] LoadBizThread() - called (18 business loaded).
+[07:26:12] InitSkinThread() - called (11 skins loaded).
+[07:26:12] InitTurfRivalWars() - called (33 turfs loaded).
+[07:26:12] InitSpawnZone() - called (11 zones loaded).
+[07:26:12] LoadSafesThread() - called (10 safes loaded).
+[07:26:12] LoadJobsThread() - called (5 jobs loaded).
+[07:26:12] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:26:12] 15 checkpoints loaded for Race 0.
+[07:26:12] OtherTimer - called
+[07:26:12] SendMSG - called
+[07:26:12] DiseasePayDay - called
+[07:26:12] DiseasePlayerHealth - called
+[07:26:12] AleatorContracts - called
+[07:26:12] CheckGas - called
+[07:26:12] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:32:57] 
+[07:32:57] Server Plugins
+[07:32:57] --------------
+[07:32:57]  Loading plugin: mysql
+[07:32:57]  >> plugin.mysql: R39 successfully loaded.
+[07:32:57]   Loaded.
+[07:32:57]  Loading plugin: streamer
+[07:32:57] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:32:57]   Loaded.
+[07:32:57]  Loading plugin: sscanf
+[07:32:57] 
+
+[07:32:57]  ===============================
+
+[07:32:57]       sscanf plugin loaded.     
+
+[07:32:57]          Version:  2.8.1        
+
+[07:32:57]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:32:57]  ===============================
+
+[07:32:57]   Loaded.
+[07:32:57]  Loaded 3 plugins.
+
+[07:32:57] 
+[07:32:57] Filterscripts
+[07:32:57] ---------------
+[07:32:57]   Loaded 0 filterscripts.
+
+[07:32:57] It stabilizes the connection to the database ...
+[07:32:57] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:32:57] Setting server password to: "test037rpg"
+[07:32:57] 
+---------------------------------------
+[07:32:57] Running eGaming RPG v.Test- - by Kurama 
+
+[07:32:57] ---------------------------------------
+
+[07:32:57] Number of vehicle models: 0
+[07:32:57] LoadFactionsThread() - called (12 factions loaded).
+[07:32:57] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:32:57] LoadHousesThread() - called (48 houses loaded).
+[07:32:57] LoadBizThread() - called (18 business loaded).
+[07:32:57] InitSkinThread() - called (11 skins loaded).
+[07:32:57] InitTurfRivalWars() - called (33 turfs loaded).
+[07:32:57] InitSpawnZone() - called (11 zones loaded).
+[07:32:57] LoadSafesThread() - called (10 safes loaded).
+[07:32:57] LoadJobsThread() - called (5 jobs loaded).
+[07:32:57] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:32:57] 15 checkpoints loaded for Race 0.
+[07:32:57] OtherTimer - called
+[07:32:57] SendMSG - called
+[07:32:57] DiseasePayDay - called
+[07:32:58] DiseasePlayerHealth - called
+[07:32:58] AleatorContracts - called
+[07:32:58] CheckGas - called
+[07:32:58] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:37:13] 
+[07:37:13] Server Plugins
+[07:37:13] --------------
+[07:37:13]  Loading plugin: mysql
+[07:37:13]  >> plugin.mysql: R39 successfully loaded.
+[07:37:13]   Loaded.
+[07:37:13]  Loading plugin: streamer
+[07:37:13] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:37:13]   Loaded.
+[07:37:13]  Loading plugin: sscanf
+[07:37:13] 
+
+[07:37:13]  ===============================
+
+[07:37:13]       sscanf plugin loaded.     
+
+[07:37:13]          Version:  2.8.1        
+
+[07:37:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:37:13]  ===============================
+
+[07:37:13]   Loaded.
+[07:37:13]  Loaded 3 plugins.
+
+[07:37:13] 
+[07:37:13] Filterscripts
+[07:37:13] ---------------
+[07:37:13]   Loaded 0 filterscripts.
+
+[07:37:13] It stabilizes the connection to the database ...
+[07:37:13] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:37:13] Setting server password to: "test037rpg"
+[07:37:13] 
+---------------------------------------
+[07:37:13] Running eGaming RPG v.Test- - by Kurama 
+
+[07:37:13] ---------------------------------------
+
+[07:37:13] Number of vehicle models: 0
+[07:37:13] LoadFactionsThread() - called (12 factions loaded).
+[07:37:13] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:37:13] LoadHousesThread() - called (48 houses loaded).
+[07:37:13] LoadBizThread() - called (18 business loaded).
+[07:37:13] InitSkinThread() - called (11 skins loaded).
+[07:37:13] InitTurfRivalWars() - called (33 turfs loaded).
+[07:37:13] InitSpawnZone() - called (11 zones loaded).
+[07:37:13] LoadSafesThread() - called (10 safes loaded).
+[07:37:13] LoadJobsThread() - called (5 jobs loaded).
+[07:37:13] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:37:13] 15 checkpoints loaded for Race 0.
+[07:37:13] OtherTimer - called
+[07:37:13] SendMSG - called
+[07:37:14] DiseasePayDay - called
+[07:37:14] DiseasePlayerHealth - called
+[07:37:14] AleatorContracts - called
+[07:37:14] CheckGas - called
+[07:37:14] ShowMenuInBusiness - called
+[07:38:19] [connection] 127.0.0.1:62294 requests connection cookie.
+[07:38:20] [connection] incoming connection: 127.0.0.1:62294 id: 0
+[07:38:21] [join] Kurama has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:44:03] 
+[07:44:03] Server Plugins
+[07:44:03] --------------
+[07:44:03]  Loading plugin: mysql
+[07:44:04]  >> plugin.mysql: R39 successfully loaded.
+[07:44:04]   Loaded.
+[07:44:04]  Loading plugin: streamer
+[07:44:04] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:44:04]   Loaded.
+[07:44:04]  Loading plugin: sscanf
+[07:44:04] 
+
+[07:44:04]  ===============================
+
+[07:44:04]       sscanf plugin loaded.     
+
+[07:44:04]          Version:  2.8.1        
+
+[07:44:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:44:04]  ===============================
+
+[07:44:04]   Loaded.
+[07:44:04]  Loaded 3 plugins.
+
+[07:44:04] 
+[07:44:04] Filterscripts
+[07:44:04] ---------------
+[07:44:04]   Loaded 0 filterscripts.
+
+[07:44:04] It stabilizes the connection to the database ...
+[07:44:04] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:44:04] Setting server password to: "test037rpg"
+[07:44:04] 
+---------------------------------------
+[07:44:04] Running eGaming RPG v.Test- - by Kurama 
+
+[07:44:04] ---------------------------------------
+
+[07:44:04] Number of vehicle models: 0
+[07:44:04] LoadFactionsThread() - called (12 factions loaded).
+[07:44:04] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:44:04] LoadHousesThread() - called (48 houses loaded).
+[07:44:04] LoadBizThread() - called (18 business loaded).
+[07:44:04] InitSkinThread() - called (11 skins loaded).
+[07:44:04] InitTurfRivalWars() - called (33 turfs loaded).
+[07:44:04] InitSpawnZone() - called (11 zones loaded).
+[07:44:04] LoadSafesThread() - called (10 safes loaded).
+[07:44:04] LoadJobsThread() - called (5 jobs loaded).
+[07:44:04] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:44:04] 15 checkpoints loaded for Race 0.
+[07:44:04] OtherTimer - called
+[07:44:04] SendMSG - called
+[07:44:04] DiseasePayDay - called
+[07:44:04] DiseasePlayerHealth - called
+[07:44:04] AleatorContracts - called
+[07:44:05] CheckGas - called
+[07:44:05] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:45:46] 
+[07:45:46] Server Plugins
+[07:45:46] --------------
+[07:45:46]  Loading plugin: mysql
+[07:45:46]  >> plugin.mysql: R39 successfully loaded.
+[07:45:46]   Loaded.
+[07:45:46]  Loading plugin: streamer
+[07:45:46] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:45:46]   Loaded.
+[07:45:46]  Loading plugin: sscanf
+[07:45:46] 
+
+[07:45:46]  ===============================
+
+[07:45:46]       sscanf plugin loaded.     
+
+[07:45:46]          Version:  2.8.1        
+
+[07:45:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:45:46]  ===============================
+
+[07:45:46]   Loaded.
+[07:45:46]  Loaded 3 plugins.
+
+[07:45:46] 
+[07:45:46] Filterscripts
+[07:45:46] ---------------
+[07:45:46]   Loaded 0 filterscripts.
+
+[07:45:46] It stabilizes the connection to the database ...
+[07:45:46] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:45:46] Setting server password to: "test037rpg"
+[07:45:46] 
+---------------------------------------
+[07:45:46] Running eGaming RPG v.Test- - by Kurama 
+
+[07:45:46] ---------------------------------------
+
+[07:45:47] Number of vehicle models: 0
+[07:45:47] LoadFactionsThread() - called (12 factions loaded).
+[07:45:47] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:45:47] LoadHousesThread() - called (48 houses loaded).
+[07:45:47] LoadBizThread() - called (18 business loaded).
+[07:45:47] InitSkinThread() - called (11 skins loaded).
+[07:45:47] InitTurfRivalWars() - called (33 turfs loaded).
+[07:45:47] InitSpawnZone() - called (11 zones loaded).
+[07:45:47] LoadSafesThread() - called (10 safes loaded).
+[07:45:47] LoadJobsThread() - called (5 jobs loaded).
+[07:45:47] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:45:47] 15 checkpoints loaded for Race 0.
+[07:45:47] OtherTimer - called
+[07:45:47] SendMSG - called
+[07:45:47] DiseasePayDay - called
+[07:45:47] DiseasePlayerHealth - called
+[07:45:47] AleatorContracts - called
+[07:45:47] CheckGas - called
+[07:45:47] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:47:26] 
+[07:47:26] Server Plugins
+[07:47:26] --------------
+[07:47:26]  Loading plugin: mysql
+[07:47:26]  >> plugin.mysql: R39 successfully loaded.
+[07:47:26]   Loaded.
+[07:47:26]  Loading plugin: streamer
+[07:47:26] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:47:26]   Loaded.
+[07:47:26]  Loading plugin: sscanf
+[07:47:26] 
+
+[07:47:26]  ===============================
+
+[07:47:26]       sscanf plugin loaded.     
+
+[07:47:26]          Version:  2.8.1        
+
+[07:47:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:47:26]  ===============================
+
+[07:47:26]   Loaded.
+[07:47:26]  Loaded 3 plugins.
+
+[07:47:26] 
+[07:47:26] Filterscripts
+[07:47:26] ---------------
+[07:47:26]   Loaded 0 filterscripts.
+
+[07:47:26] It stabilizes the connection to the database ...
+[07:47:26] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:47:26] Setting server password to: "test037rpg"
+[07:47:26] 
+---------------------------------------
+[07:47:26] Running eGaming RPG v.Test- - by Kurama 
+
+[07:47:26] ---------------------------------------
+
+[07:47:26] Number of vehicle models: 0
+[07:47:26] LoadFactionsThread() - called (12 factions loaded).
+[07:47:26] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:47:26] LoadHousesThread() - called (48 houses loaded).
+[07:47:26] LoadBizThread() - called (18 business loaded).
+[07:47:26] InitSkinThread() - called (11 skins loaded).
+[07:47:26] InitTurfRivalWars() - called (33 turfs loaded).
+[07:47:26] InitSpawnZone() - called (11 zones loaded).
+[07:47:26] LoadSafesThread() - called (10 safes loaded).
+[07:47:26] LoadJobsThread() - called (5 jobs loaded).
+[07:47:26] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:47:26] 15 checkpoints loaded for Race 0.
+[07:47:26] OtherTimer - called
+[07:47:26] SendMSG - called
+[07:47:26] DiseasePayDay - called
+[07:47:27] DiseasePlayerHealth - called
+[07:47:27] AleatorContracts - called
+[07:47:27] CheckGas - called
+[07:47:27] ShowMenuInBusiness - called
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:50:17] 
+[07:50:17] Server Plugins
+[07:50:17] --------------
+[07:50:17]  Loading plugin: mysql
+[07:50:17]  >> plugin.mysql: R39 successfully loaded.
+[07:50:17]   Loaded.
+[07:50:17]  Loading plugin: streamer
+[07:50:17] 
+
+*** Streamer Plugin v2.5 by Incognito loaded ***
+
+[07:50:17]   Loaded.
+[07:50:17]  Loading plugin: sscanf
+[07:50:17] 
+
+[07:50:17]  ===============================
+
+[07:50:17]       sscanf plugin loaded.     
+
+[07:50:17]          Version:  2.8.1        
+
+[07:50:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[07:50:17]  ===============================
+
+[07:50:17]   Loaded.
+[07:50:17]  Loaded 3 plugins.
+
+[07:50:17] 
+[07:50:17] Filterscripts
+[07:50:17] ---------------
+[07:50:17]   Loaded 0 filterscripts.
+
+[07:50:17] It stabilizes the connection to the database ...
+[07:50:17] SQL_HOST: localhost SQL_USER: root SQL_DATA: mydb, SQL_PASS: 
+[07:50:17] Setting server password to: "test037rpg"
+[07:50:17] 
+---------------------------------------
+[07:50:17] Running eGaming RPG v.Test- - by Kurama 
+
+[07:50:17] ---------------------------------------
+
+[07:50:17] Number of vehicle models: 0
+[07:50:17] LoadFactionsThread() - called (12 factions loaded).
+[07:50:17] LoadVehiclesThread() - called (212 vehicles loaded.
+[07:50:17] LoadHousesThread() - called (48 houses loaded).
+[07:50:17] LoadBizThread() - called (18 business loaded).
+[07:50:17] InitSkinThread() - called (11 skins loaded).
+[07:50:17] InitTurfRivalWars() - called (33 turfs loaded).
+[07:50:17] InitSpawnZone() - called (11 zones loaded).
+[07:50:17] LoadSafesThread() - called (10 safes loaded).
+[07:50:17] LoadJobsThread() - called (5 jobs loaded).
+[07:50:17] LoadDealerShipThread() - called (92 vehicles loaded).
+[07:50:17] 15 checkpoints loaded for Race 0.
+[07:50:17] OtherTimer - called
+[07:50:17] SendMSG - called
+[07:50:17] DiseasePayDay - called
+[07:50:17] DiseasePlayerHealth - called
+[07:50:18] AleatorContracts - called
+[07:50:18] CheckGas - called
+[07:50:18] ShowMenuInBusiness - called

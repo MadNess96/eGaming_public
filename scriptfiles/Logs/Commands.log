@@ -296,3 +296,91 @@ Kurama [CMD:]/racers
 Kurama [CMD:]/fly
 Kurama [CMD:]/loadrace
 Kurama [CMD:]/fly
+Kurama [CMD:]/factions
+Kurama [CMD:]/gotog
+Kurama [CMD:]/spawntvehicle 451
+Kurama [CMD:]/racerbuild
+Kurama [CMD:]/racehelp
+Kurama [CMD:]/racebuilder
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/lastcp
+Kurama [CMD:]/loadrace
+Kurama [CMD:]/gotog
+Kurama [CMD:]/spawntvehicle 411
+Kurama [CMD:]/racebuilder
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/createcp
+Kurama [CMD:]/lastcp
+Kurama [CMD:]/loadrace
+Kurama [CMD:]/loadrace
+Kurama [CMD:]/spawntvehicle 510
+Kurama [CMD:]/spawntvehicle 509
+Kurama [CMD:]/spawntvehicle 508
+Kurama [CMD:]/spawntvehicle 507
+Kurama [CMD:]/spawntvehicle 506
+Kurama [CMD:]/rac
+Kurama [CMD:]/spawntvehicle 505
+Kurama [CMD:]/spawntvehicle 504
+Kurama [CMD:]/spawntvehicle 503
+Kurama [CMD:]/spawntvehicle 502
+Kurama [CMD:]/spawntvehicle 501
+Kurama [CMD:]/sLAP 0
+Kurama [CMD:]/spawntvehicle 500
+Kurama [CMD:]/spawntvehicle 99
+Kurama [CMD:]/spawntvehicle 499
+Kurama [CMD:]/spawntvehicle 498
+Kurama [CMD:]/spawntvehicle 497
+Kurama [CMD:]/spawntvehicle 497
+Kurama [CMD:]/spawntvehicle 496
+Kurama [CMD:]/spawntvehicle 451
+Kurama [CMD:]/rac
+Kurama [CMD:]/fixveh
+Kurama [CMD:]/ready
+Kurama [CMD:]/endrace
+Kurama [CMD:]/LOADRACE
+Kurama [CMD:]/ENDRACE
+Kurama [CMD:]/LOADRACE
+Kurama [CMD:]/LOADRACE
+Kurama [CMD:]/endrace
+Kurama [CMD:]/licenses
+Kurama [CMD:]/take
+Kurama [CMD:]/takelicense
+Kurama [CMD:]/takelicense 0 flying
+Kurama [CMD:]/licenses
+Kurama [CMD:]/gotoflying
+Kurama [CMD:]/gotols
+Kurama [CMD:]/fly
+Kurama [CMD:]/fly
+Kurama [CMD:]/fuelcars
+Kurama [CMD:]/engine
+Kurama [CMD:]/engine
+Kurama [CMD:]/licenses
+Kurama [CMD:]/gotog
+Kurama [CMD:]/spawntvehicle 451
+Kurama [CMD:]/givelicense 0 driving
+Kurama [CMD:]/license
+Kurama [CMD:]/licenses
